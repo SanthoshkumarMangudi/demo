@@ -12,6 +12,10 @@ public class checkbox {
 		drive.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		drive.findElement(By.cssSelector("input[id*='friendsandfamily']")).click();
 		System.out.println(drive.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		System.out.println(drive.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		System.out.println(drive.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		System.out.println(drive.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		
 		
 		System.out.println(drive.findElements(By.cssSelector("input[type='checkbox']")).size());
 
